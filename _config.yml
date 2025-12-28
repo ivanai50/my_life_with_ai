@@ -37,9 +37,9 @@ navigation:
 # Giscus настройки (для комментариев)
 giscus:
   repo: ivanai50/my_life_with_ai
-  repo-id: "R_kgD..."  # получите через GitHub API
-  category: "Announcements"
-  category-id: "DIC_kwD..."  # получите через GitHub API
+  repo-id: "R_kgDOQwM8Jg"  # получите через GitHub API
+  category: "General"
+  category-id: "DIC_kwDOQwM8Js4C0Ucq"  # получите через GitHub API
   mapping: pathname
   reactions-enabled: 1
   emit-metadata: 0
