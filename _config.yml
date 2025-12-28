@@ -1,0 +1,46 @@
+title: "My Life with AI"
+description: "Ежедневные заметки о жизни с искусственным интеллектом"
+baseurl: "/my_life_with_ai"  # важно! название вашего репозитория
+url: "https://ivanai50.github.io"
+github_username: ivanai50
+repository: ivanai50/my_life_with_ai
+
+# Настройки Jekyll
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+timezone: Europe/Moscow
+
+# Плагины
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Пагинация
+paginate: 10
+paginate_path: "/page:num/"
+
+# Поиск
+search_enabled: true
+
+# Навигация
+navigation:
+  - title: "Главная"
+    url: /
+  - title: "Архив"
+    url: /archive/
+  - title: "Поиск"
+    url: /search/
+  - title: "О блоге"
+    url: /about/
+
+# Giscus настройки (для комментариев)
+giscus:
+  repo: ivanai50/my_life_with_ai
+  repo-id: "R_kgD..."  # получите через GitHub API
+  category: "Announcements"
+  category-id: "DIC_kwD..."  # получите через GitHub API
+  mapping: pathname
+  reactions-enabled: 1
+  emit-metadata: 0
+  theme: dark
